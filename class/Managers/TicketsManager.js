@@ -15,7 +15,7 @@ class TicketsManager{
                 .setColor("#0yrsz")
                 .setTitle("Ticket")
                 .setDescription("Ticket crée par " + message.author.username + "." + " \n la raison de ce ticket est " + reason + ".")
-                .setFooter("HolyCloud", message.author.displayAvatarURL)
+                .setFooter("Location-serv.eu", message.author.displayAvatarURL)
                 .setTimestamp();
             c.send(e);
             c.setTopic(`Créateur du ticket : ${message.author.username}\n Raison : ${reason} \n \n /close : ferme le ticket \n /add : ajoute quelq'un au ticket \n /remove : retire quelq'un du ticket`);

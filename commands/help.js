@@ -14,7 +14,7 @@ module.exports.run = async (client, message, args) => {
         .addField(`Utilitaire`, `${client.commands.filter(cmd => cmd.help.category === 'utils').map(cmd => `\`${cmd.help.name}\``).join(" | ")}`)
         .addField(`Ticket`, `${client.commands.filter(cmd => cmd.help.category === 'ticket').map(cmd => `\`${cmd.help.name}\``).join(" | ")}`)
         .addField(`Autre`, `${client.commands.filter(cmd => cmd.help.category === 'other').map(cmd => `\`${cmd.help.name}\``).join(" | ")}`)
-        .setFooter(`Aides - HolyCloud.fr`)
+        .setFooter(`Aides - Location-serv.eu`)
         .setTimestamp()
         message.channel.send(help)
     })

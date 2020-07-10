@@ -16,7 +16,7 @@ module.exports.run = async (bot, message, args) => {
         .setColor("RANDOM")
         .setTitle("Suggestion")
         .setDescription("**Par** > *"+  author.tag +  "* \n **Suggestion** > *" + sugg + "*")
-        .setFooter("HolyCloud", author.displayAvatarURL)
+        .setFooter("Location-Serv.eu", author.displayAvatarURL)
         .setTimestamp();
         sugg_channel.send(embled).then(async embled => {
             await embled.react('✅');

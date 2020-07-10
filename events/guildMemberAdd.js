@@ -10,8 +10,8 @@ module.exports = (client, member) => {
     let embled = new Discord.RichEmbed()
         .setColor("#32CD32")
         .setTitle("Nouvelle arrivée sur le discord")
-        .setDescription("Bienvenue **"+  member.displayName +  "** \n  \n **Aide** > */help* \n **Support** > */new*\n **Site** > *https://holycloud.fr*")
-        .setFooter("HolyCloud", member.displayAvatarURL)
+        .setDescription("Bienvenue **"+  member.displayName +  "** \n  \n **Aide** > */help* \n **Support** > */new*\n **Site** > *https://Location-serv.eu*")
+        .setFooter("Location-Serv", member.displayAvatarURL)
         .setTimestamp();
         main.send(embled);
 
